@@ -1,3 +1,5 @@
+import Auth from "../Auth/Auth";
+import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
@@ -7,14 +9,20 @@ export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
-        <Logo></Logo>
-        <Nav></Nav>
+        <Nav />
+        
       </header>
       <aside>
         <CategoryList />
+        <CartLink />
+        <Auth />
       </aside>
-      <main>{props.children}</main>
-      <footer>FOOTER</footer>
+      <main>
+        {props.children}
+      </main>
+      <footer>
+        FOOTER
+      </footer>
     </div>
   );
 }

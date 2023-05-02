@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import "./CategoryList.css";
 import { NavLink } from "react-router-dom";
 import { AppContext } from "../../App";
+import AddCategory from "../AddCategory/AddCategory";
 
 export default function CategoryList() {
   const { categories } = useContext(AppContext);
@@ -19,6 +20,7 @@ export default function CategoryList() {
       <ul>
         {output}
       </ul>
+      <AddCategory></AddCategory>
     </div>
   );
 }

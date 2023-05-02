@@ -3,4 +3,48 @@
 }
 body{
   margin: 0;
+  
+}
+.About img{
+ width: 600px;
+ 
+}
+.Home-welcome{
+  color: antiquewhite;
+  text-align: center;
+  font-size: 30px;
+}
+.About {
+  display: flex;
+  flex-wrap: wrap;
+}
+.About a {
+  display: inline-block;
+  width: 50px;
+  text-decoration: none;
+}
+.About nav, scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.About nav {
+  width: 109px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.About scroll-container {
+  display: block;
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.About scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+  font-size: 18px;
 }

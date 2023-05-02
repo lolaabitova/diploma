@@ -1,11 +1,22 @@
-const { useState } = require("react");
+import { useState } from "react";
 
-function AddCategory(){ 
+function AddCategory() {
   const [category, setCategory] = useState("");
-  return(
+
+  function onChangeCategory(event) {
+    setCategory(event.target.value);
+  }
+
+  function onAddCategory() {
+
+  }
+
+  return (
     <div>
-      <input type="text" size="15" placeholder="category name"/>
+      <input size="15" type="text" value={category} placeholder="Category name" onChange={onChangeCategory} />
       <button onClick={onAddCategory}>+</button>
     </div>
-  )
-} 
+  );
+}
+
+export default AddCategory;

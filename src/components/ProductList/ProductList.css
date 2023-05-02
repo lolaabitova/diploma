@@ -1,0 +1,9 @@
+.ProductList .Product {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+.ProductList .Product img {
+  width: 200px;
+  height: 250px;
+}
