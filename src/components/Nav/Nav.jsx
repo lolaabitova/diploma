@@ -1,17 +1,18 @@
 import { NavLink } from "react-router-dom";
+import CategoryList from "../CategoryList/CategoryList";
 import "./Nav.css";
 
 export default function Nav(){
   return(
-    <nav className="Nav">
+    <div class="container"><nav className="Nav">
       <ul>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/contact">Contact</NavLink></li>
-        <li><NavLink to="/delivery">Delivery</NavLink></li>
+        <CategoryList></CategoryList>
       </ul>
       
+      
     
-    </nav>
+    </nav></div>
+    
   );
 }

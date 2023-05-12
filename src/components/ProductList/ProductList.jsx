@@ -3,6 +3,8 @@ import "./ProductList.css";
 import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import AddToCart from "../AddToCart/AddToCart";
+import AddProduct from "../AddPruduct/AddProduct";
+import DeleteProduct from "../Deleteproduct/Deleteproduct";
 
 export default function ProductList({ category }) {
   const { products } = useContext(AppContext);
@@ -17,12 +19,14 @@ export default function ProductList({ category }) {
       </Link>
       <span>{product.price} som</span>
       <AddToCart product={product} />
+      <DeleteProduct product={product} />
     </div>
   ));
 
   return (
     <div className="ProductList">
       {output}
+      <AddProduct category={category}></AddProduct>
     </div>
   );
 }

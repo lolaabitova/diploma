@@ -1,32 +1,36 @@
-.Layout{
+.Layout {
   max-width: 1400px;
- 
+
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-.Layout header{
+.Layout header {
   background-color: rgb(255, 255, 255);
   padding: 10px 0px;
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-  
 
-  
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .Layout aside {
-  background-color: rgb(42, 9, 110);
-  flex: 20% 0 0;
-}
-.Layout main{
-  background-color: rgb(42, 9, 110);
-  flex: 80% 1 1;
-  height: 100vh;
   
+  flex: 0% 0 0;
 }
-.Layout footer{
+.Layout main {
+  
+  flex: 80% 1 1;
+  height: auto;
+}
+.Layout footer {
   flex: 100% 0 0;
-  background-color: rgb(42, 9, 110);
+  background-color: rgb(197, 195, 200);
+}
+@media (max-width: 650px) {
+  .Layout header > .Nav {
+    display: none;
+  }
 }

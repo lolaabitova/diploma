@@ -1,25 +1,34 @@
-.Nav ul{
+.Nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+ 
 }
-.Nav ul li a{
-  color: rgb(42, 30, 51);
-  padding: 10px;
+.Nav ul li a {
+  color: #6f6d6d;
+   margin: 15px;
   display: block;
   text-decoration: none;
-  font-size: 20px;
+  transition: 1s;
   
 }
-.Nav{
-  padding: 0 300px;
-  
-  background-color: rgb(252, 252, 252);
-  height: 40px;
-  width: 1400px;
+.Nav {
+  color: #6f6d6d;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Bruno Ace SC', cursive;
 }
-.Nav a:hover{
-  border-bottom: 2px solid purple;
+.Nav a:hover {
+  color: #0b0b0b;
+  
+}
+
+@media (max-width: 650px) {
+  .Nav ul {
+    flex-direction: column;
+  }
+  .Nav {
+    padding: 0;
+  }
 }
