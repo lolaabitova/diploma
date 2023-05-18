@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 import About from "./pages/About";
+import Contact from "./pages/Contact"
 import { createContext, useEffect, useState } from "react";
 import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
 import Cart from "./pages/Cart";
@@ -56,6 +57,7 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About/>} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
