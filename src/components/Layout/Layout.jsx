@@ -30,7 +30,8 @@ export default function Layout(props) {
       </aside>
       <main>{props.children}</main>
       <footer>
-        
+        <CategoryList />
+       
         <ul>
           <li><Link to="about">About</Link></li>
         </ul>
