@@ -47,6 +47,7 @@ export default function Product() {
           </scroll-container>
           
           </div> 
+
     </div>
   );
 }
