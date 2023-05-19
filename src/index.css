@@ -11,108 +11,101 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.About .about-header{
+.About .about-header {
   width: auto;
   align-items: center;
-  
-  padding-bottom: 40px;
+
+  padding-bottom: 10px;
   display: inline-block;
 }
-.Home .home-header .home-header-img{
+.Home .home-header .home-header-img {
   overflow: hidden;
 }
-.Home .home-header .home-header-img img{
+.Home .home-header .home-header-img img {
   width: 100%;
   height: 70vh;
   position: relative;
   display: block;
   transition: 5s;
-  
 }
-.About .about-main .about-main-text h1{
-  
+.About .about-main .about-main-text h1 {
   width: 600px;
-  
 }
-.About .about-main h1{
+.About .about-main h1 {
   position: absolute;
   top: 700px;
   text-align: center;
   color: rgb(2, 1, 1);
   opacity: 0;
   transition: 2s;
-  font-family: 'Bruno Ace SC', cursive;
+  font-family: "Bruno Ace SC", cursive;
   font-size: 24px;
-  
 }
-.Home .home-header .home-header-img img:hover{
+.Home .home-header .home-header-img img:hover {
   transform: scale(1.2);
 }
-.About .about-main{
+.About .about-main {
   width: auto;
   align-items: center;
   overflow: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
-.About .about-main .about-main-img img{
+.About .about-main .about-main-img img {
   width: 100%;
   height: 80vh;
   position: relative;
   display: block;
   transition: 5s;
-  
-  
 }
-.Home .home-header .home-header-text h1{
-  margin-left: 650px;
-  width: 600px;
-  color: rgb(158, 154, 154);
+.Home .home-header .home-header-text h1 {
+  margin-left: 810px;
+  width: 400px;
+  color: white;
 }
-.Home .home-header h1{
+.Home .home-header h1 {
   position: absolute;
-  top: 800px;
+  top: 500px;
   text-align: center;
-  color: rgb(255, 253, 253);
-  font-family: 'Bruno Ace SC', cursive;
+  color: #527c82;
+  font-family: "Bruno Ace SC", cursive;
   font-size: 24px;
 }
-.About .about-main h1:hover{
+.About .about-main h1:hover {
   opacity: 1;
 }
 
-
 .Home-welcome {
-  color: antiquewhite;
+  color: #527c82;
   text-align: center;
   font-size: 30px;
 }
 
-.About a {
+.Product a {
   display: inline;
   padding: 0 50px;
   width: 50px;
   text-decoration: none;
 }
-.About nav,
+.Product nav,
 scroll-container {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-.About nav {
+.Product nav {
   width: auto;
   padding: 5px;
-  
 }
-.About scroll-container {
+.Product scroll-container {
+  padding-top: 100px;
   display: block;
   width: auto;
   height: 70vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-.About scroll-page {
+.Product scroll-page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,56 +113,49 @@ scroll-container {
   font-size: 5em;
   font-size: 18px;
 }
-.About .scroll-page-news{
+
+.Home .home-welcome {
   width: auto;
   align-items: center;
   overflow: hidden;
- 
+  padding-bottom: 20px;
 }
-.About .scroll-page-news .scroll-page-news-img img{
+
+.Home .home-welcome .home-welcome-img img {
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   position: relative;
   display: block;
   transition: 5s;
-  
-}
-.About .scroll-page-news .scroll-page-news-text {
-  width: 700px;
-  
-}
-.About .scroll-page-news{
-  display: flex;
 }
 
-.Home .home-welcome{
-  width: auto;
-  align-items: center;
-  overflow: hidden;
-  padding-bottom: 40px;
-}
-
-.Home .home-welcome .home-welcome-img img{
-  width: 100%;
-  height: 80vh;
-  position: relative;
-  display: block;
-  transition: 5s;
-  
-}
-
-
-.Home .home-welcome h1{
+.Home .home-welcome h1 {
   position: absolute;
   top: 150px;
   margin-left: 200px;
-  color: rgb(153, 146, 146);
-  
+  color: white;
+
   transition: 2s;
-  font-family: 'Bruno Ace SC', cursive;
+  font-family: "Bruno Ace SC", cursive;
   font-size: 48px;
-  
 }
-.Home .home-welcome .home-welcome-text h1:hover{
+.Home .home-welcome:hover h1 {
   transform: scale(1.2);
 }
+
+
+.Product .product-name h1{
+  position: absolute;
+  top: 10%;
+  color: rgb(251, 245, 245);
+  font-size: 48px;
+  font-family: "Bruno Ace SC", cursive;
+  margin-left: 70%;
+  opacity: 0;
+  
+  transition: 2s;
+}
+
+
+
+ 
