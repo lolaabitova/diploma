@@ -2,3 +2,7 @@
   list-style: none;
   text-decoration: none;
 }
+.CategoryList ul li{
+  display: flex;
+  justify-content: space-between;
+}
