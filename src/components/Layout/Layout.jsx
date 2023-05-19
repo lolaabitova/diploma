@@ -9,6 +9,7 @@ import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import About from "../../pages/About";
+import Footer from "../Footer/Footer";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -30,14 +31,7 @@ export default function Layout(props) {
       </aside>
       <main>{props.children}</main>
       <footer>
-        <CategoryList />
-       
-        <ul>
-          <li><Link to="about">About</Link></li>
-        </ul>
-        
-        
-        
+      <Footer/>
       </footer>
     </div>
   );

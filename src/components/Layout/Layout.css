@@ -26,6 +26,8 @@
   height: auto;
 }
 .Layout footer {
+  display: flex;
+  
   flex: 100% 0 0;
   background-color: rgb(197, 195, 200);
 }
