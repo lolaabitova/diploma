@@ -1,0 +1,11 @@
+.Auth{
+  font-family: "Bruno Ace SC", cursive;
+}
+.user-name{
+  font-size: 12px;
+  text-decoration: none;
+}
+.neon-btn.sing{
+  border-radius: 30%;
+  padding: 10px 20px;
+}

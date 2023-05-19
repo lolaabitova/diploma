@@ -81,29 +81,21 @@ body {
   font-size: 30px;
 }
 
-.Product a {
-  display: inline;
-  padding: 0 50px;
-  width: 50px;
-  text-decoration: none;
-}
-.Product nav,
-scroll-container {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.Product nav {
-  width: auto;
-  padding: 5px;
-}
+
+ 
 .Product scroll-container {
-  padding-top: 100px;
+  
   display: block;
-  width: auto;
+  width: 220px;
   height: 70vh;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  overflow-y: auto;
+  scroll-snap-type: y;
+  
+  
+}
+.product-year{
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
 }
 .Product scroll-page {
   display: flex;
@@ -153,9 +145,83 @@ scroll-container {
   margin-left: 70%;
   opacity: 0;
   
+  
   transition: 2s;
 }
+scroll-container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #627578;
+  
+  
+}
 
+.Product{
+  position: relative;
+}
+.Product img{
+  width: 1000px;
+  position: relative;
+  height: 90vh;
 
+}
 
+.Product .hover-effect-btn {
+  position: relative;
+  
+}
+.product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 1000px;
+  height: 90vh;
+  background: rgba(181, 179, 179, 0.5); 
+  transition: background 0.5s ease;
+  opacity: 0;
+}
+.Product .hover-effect-btn:hover .product-overlay {
+  display: block;
+  opacity: 1;
+  
+}
+.Product .title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bruno Ace SC", cursive;
+  opacity: 0;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 40%; /* Отступ сверху */
+  font-size: 1.300em; /* Размер текста заголовка */
+  text-align: center;
+  text-transform: uppercase; /* Заглавные буквы */
+  color: white; /* Цвет заголовка */
+  z-index: 1;
+  transition: top 0.5s ease;
+}
+.Product .hover-effect-btn:hover .title {
  
+  opacity: 1;
+}
+.Product .button {
+  position: absolute;
+  width: 100%;
+  left:0;
+  top: 70%; /* Отступ сверху */
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.Product .hover-effect-btn:hover .button {
+  opacity: 1;
+}
+.Product{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}

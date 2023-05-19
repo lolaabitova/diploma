@@ -7,6 +7,8 @@ import "./Layout.css";
 import NavToggle from "../NavToggle/NavToggle";
 import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import About from "../../pages/About";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -17,7 +19,9 @@ export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
+      <CartLink />
         <Nav />
+        <Auth />
         <NavToggle callback={toggleDrawer} />
         <Drawer open={drawerOpen} toggle={toggleDrawer} />
       </header>
@@ -29,6 +33,9 @@ export default function Layout(props) {
         <CategoryList />
         <CartLink />
         <Auth />
+        <ul>
+          <li><Link to="about">About</Link></li>
+        </ul>
         
         
         

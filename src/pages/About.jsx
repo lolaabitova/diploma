@@ -47,28 +47,7 @@ export default function About() {
         </div>
       </div>
 
-      <nav>
-        <a href="#page-1">1</a>
-        <a href="#page-2">2</a>
-        <a href="#page-3">3</a>
-      </nav>
-      <scroll-container>
-        <scroll-page id="page-1">
-          <div className="scroll-page-news">
-            <div className="scroll-page-news-text">
-              <h3></h3>
-              <span>China is not only the world’s largest automobile market, with annual sales north of 20 million units a year placing it well ahead of the former champion, the United States. It is also the world’s largest electric car market, with more than 1.2 million units sold in 2019. Overall, more than 3.4 million battery electric vehicles – or BEVs – can be found on Chinese roads, or more than 45 percent of all BEVs worldwide. And that number is only set to grow. In June 2020 alone, more than 88,000 brand new BEVs hit the roads of the Chinese mainland. The impressive growth is in part spurred by Chinese policy ambitions, which actively push for greener energy solutions to environmental challenges caused primarily by growing urbanization. This in turn has paved the way for an overall goal by Chinese authorities to have BEVs take up a 30 percent market share by 2030.</span>
-            </div>
-            <div className="scroll-page-news-img">
-              <img src="https://content2.rozetka.com.ua/goods/images/big/19784994.jpg" alt="" />
-            </div>
-
-          </div>
-        
-        </scroll-page>
-        <scroll-page id="page-2">2</scroll-page>
-        <scroll-page id="page-3">3</scroll-page>
-      </scroll-container>
+      
     </div>
   );
 }
