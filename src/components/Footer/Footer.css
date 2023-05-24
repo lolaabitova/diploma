@@ -21,3 +21,6 @@
   flex-direction: column;
   padding: 10px 35px;
 }
+.Footer a:hover{
+  color: black;
+}
