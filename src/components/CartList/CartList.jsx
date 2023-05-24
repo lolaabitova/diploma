@@ -34,7 +34,7 @@ export default function CartList() {
           value={cart[product.id]}
         />
         <span>{product.price * cart[product.id]} som</span>
-        <button onClick={() => onRemoveClick(product)}>Remove</button>
+        <div className="line-btn line-btn" onClick={() => onRemoveClick(product)}><span>Remove</span></div>
       </div>
     ));
 

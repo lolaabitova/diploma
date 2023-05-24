@@ -4,5 +4,153 @@
 }
 
 .CartList .CartItem img {
-  width: 20px;
+  width: 200px;
+}
+.CartList {
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+}
+
+.CartList .CartItem {
+  padding: 40px 170px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid rgb(113, 217, 196);
+  border-radius: 15px;
+  margin: 25px 50px;
+  flex-wrap: wrap;
+  font-family: "Bruno Ace SC", cursive;
+  
+  background-color: white;
+  transition: 0.5s;
+}
+.CartList .CartItem:hover{
+  box-shadow: 10px 5px 5px 5px rgb(57, 88, 84);
+}
+
+.CartList input {
+  border: 1px solid rgb(116, 205, 189);
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 25px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  max-width: 20px;
+ 
+}
+
+.CartList a {
+  color: rgb(76, 178, 185);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  max-width: 50px;
+}
+
+.CartList .Product_price {
+  color: rgb(88, 219, 223);
+  font-family: cursive;
+  font-weight: 700;
+
+  font-size: 20px;
+  padding: 40px;
+}
+
+.ProductSlug {
+  max-width: 45px;
+  flex-wrap: wrap;
+  margin-right: 40px;
+  margin-left: 20px;
+  width: 35%;
+  text-align: center;
+}
+
+.InputButton button {
+  margin-left: 20px;
+  color: white;
+  background-color: rgb(105, 218, 169);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.InputButton button:hover {
+  background-color: rgb(85, 205, 221);
+  color: rgb(245, 242, 242);
+}
+
+.CartItem input {
+  max-width: 50px;
+  outline: none;
+  cursor: pointer;
+  color: brown;
+  font-size: 14px;
+  max-width: 10%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+
+}
+
+
+.line-btn {
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  margin: 3em 0; /* Отступ кнопок */
+  color: #0a0909;
+  transition: all 0.5s;
+  position: relative;
+  font-family: "Bruno Ace SC", cursive;
+
+}
+.line-btn span {
+  z-index: 2;	
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;	
+}
+.line-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(248, 9, 9, 0.2);
+  
+}
+.line-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(235, 11, 11, 0.2);
+  
+}
+.line-btn:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(249, 60, 7, 0);
+}
+.line-btn:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(250, 22, 6, 0);
+}
+.line-btn:hover span{
+  color: red;
 }
