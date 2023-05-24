@@ -4,7 +4,7 @@
 body {
   margin: 0;
 }
-a{
+a {
   text-decoration: none;
   color: #6f6d6d;
 }
@@ -85,19 +85,14 @@ a{
   font-size: 30px;
 }
 
-
- 
 .Product scroll-container {
-  
   display: block;
   width: 220px;
   height: 70vh;
   overflow-y: auto;
   scroll-snap-type: y;
-  
-  
 }
-.product-year{
+.product-year {
   font-family: "Bruno Ace SC", cursive;
   text-align: center;
 }
@@ -139,8 +134,7 @@ a{
   transform: scale(1.2);
 }
 
-
-.Product .product-name h1{
+.Product .product-name h1 {
   position: absolute;
   top: 10%;
   color: rgb(251, 245, 245);
@@ -148,30 +142,25 @@ a{
   font-family: "Bruno Ace SC", cursive;
   margin-left: 70%;
   opacity: 0;
-  
-  
+
   transition: 2s;
 }
 scroll-container::-webkit-scrollbar {
   width: 5px;
   background-color: #627578;
-  
-  
 }
 
-.Product{
+.Product {
   position: relative;
 }
-.Product img{
+.Product img {
   width: 1000px;
   position: relative;
   height: 90vh;
-
 }
 
 .Product .hover-effect-btn {
   position: relative;
-  
 }
 .product-overlay {
   position: absolute;
@@ -180,14 +169,13 @@ scroll-container::-webkit-scrollbar {
   padding: 20px;
   width: 1000px;
   height: 90vh;
-  background: rgba(181, 179, 179, 0.5); 
+  background: rgba(181, 179, 179, 0.5);
   transition: background 0.5s ease;
   opacity: 0;
 }
 .Product .hover-effect-btn:hover .product-overlay {
   display: block;
   opacity: 1;
-  
 }
 .Product .title {
   display: flex;
@@ -198,7 +186,7 @@ scroll-container::-webkit-scrollbar {
   width: 50%;
   left: 25%;
   top: 40%; /* Отступ сверху */
-  font-size: 1.300em; /* Размер текста заголовка */
+  font-size: 1.3em; /* Размер текста заголовка */
   text-align: center;
   text-transform: uppercase; /* Заглавные буквы */
   color: white; /* Цвет заголовка */
@@ -206,28 +194,26 @@ scroll-container::-webkit-scrollbar {
   transition: top 0.5s ease;
 }
 .Product .hover-effect-btn:hover .title {
- 
   opacity: 1;
 }
 .Product .button {
   position: absolute;
   width: 100%;
-  left:0;
+  left: 0;
   top: 70%; /* Отступ сверху */
   text-align: center;
   opacity: 0;
-  transition: opacity .35s ease;
+  transition: opacity 0.35s ease;
 }
 
 .Product .hover-effect-btn:hover .button {
   opacity: 1;
 }
-.Product{
+.Product {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .custom-btn {
@@ -241,58 +227,52 @@ scroll-container::-webkit-scrollbar {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
-.btn-12{
+.btn-12 {
   position: relative;
   right: 20px;
   bottom: 10px;
-  border:none;
+  border: none;
   box-shadow: none;
   width: 100px;
   height: 35px;
-  
+
   line-height: 36px;
   -webkit-perspective: 240px;
   perspective: 240px;
 }
 .btn-12 span {
   background: #f1f3f4;
-background: linear-gradient(0deg, #527c82 0%, #527c82 100%);
+  background: linear-gradient(0deg, #527c82 0%, #527c82 100%);
   display: block;
   position: absolute;
   width: 100px;
   height: 35px;
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   border-radius: 30%;
-  margin:0;
+  margin: 0;
   text-align: center;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   font-family: "Bruno Ace SC", cursive;
   font-size: 12px;
 }
 .btn-12 span:nth-child(1) {
-  box-shadow:
-   -7px -7px 20px 0px #fff9,
-   -4px -4px 5px 0px #fff9,
-   7px 7px 20px 0px #0002,
-   4px 4px 5px 0px #0001;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   transform: rotateX(90deg);
   -webkit-transform-origin: 50% 50% -20px;
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
-  
 }
 .btn-12 span:nth-child(2) {
   -webkit-transform: rotateX(0deg);
@@ -303,18 +283,16 @@ background: linear-gradient(0deg, #527c82 0%, #527c82 100%);
   transform-origin: 50% 50% -20px;
 }
 .btn-12:hover span:nth-child(1) {
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
 .btn-12:hover span:nth-child(2) {
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
- color: transparent;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  color: transparent;
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);

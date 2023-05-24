@@ -4,14 +4,11 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  
 }
 
 .CartList .CartItem img {
   width: 320px;
-  
 }
-
 
 .CartList .CartItem {
   padding: 40px 50px;
@@ -19,19 +16,19 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  
+
   flex-wrap: wrap;
   font-family: "Bruno Ace SC", cursive;
-  
+
   transition: 0.5s;
 }
-.CartList .CartItem:hover{
+.CartList .CartItem:hover {
   box-shadow: 10px 5px 5px 5px rgb(57, 88, 84);
 }
 
 .CartList input {
   border: 1px solid #527c82;
-  border-radius: 5px;
+  
   padding: 5px 8px;
   margin-top: 40px;
   margin-left: 30px;
@@ -39,7 +36,6 @@
   background-color: transparent;
   margin-bottom: 40px;
   max-width: 20px;
- 
 }
 
 .CartList a {
@@ -48,13 +44,11 @@
   font-size: 16px;
   text-align: center;
   width: 10%;
-  
-  
 }
 
 .CartList .product-price {
   color: #527c82;
-  
+
   font-size: 16px;
   padding: 40px;
   width: 20%;
@@ -91,12 +85,10 @@
   max-width: 10%;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   opacity: 1;
-
 }
-
 
 .line-btn {
   width: 150px;
@@ -106,22 +98,21 @@ input[type=number]::-webkit-outer-spin-button {
   cursor: pointer;
   margin: 3em 0; /* Отступ кнопок */
   color: #f50b0b;
-  
+
   transition: all 0.5s;
   position: relative;
   font-family: "Bruno Ace SC", cursive;
-
 }
 .line-btn span {
-  z-index: 2;	
+  z-index: 2;
   display: block;
   position: absolute;
   width: 100%;
-  height: 100%;	
+  height: 100%;
   font-size: 12px;
 }
 .line-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -130,10 +121,9 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: 1;
   transition: all 0.5s;
   border: 1px solid rgba(248, 9, 9, 0.2);
-  
 }
 .line-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -142,7 +132,6 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: 1;
   transition: all 0.5s;
   border: 1px solid rgba(235, 11, 11, 0.2);
-  
 }
 .line-btn:hover::before {
   transform: rotate(-45deg);
@@ -152,7 +141,7 @@ input[type=number]::-webkit-outer-spin-button {
   transform: rotate(45deg);
   background-color: rgba(250, 22, 6, 0);
 }
-.line-btn:hover span{
+.line-btn:hover span {
   color: red;
   opacity: 0.5;
 }
