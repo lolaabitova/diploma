@@ -7,21 +7,24 @@
 }
 .Layout header {
   background-color: rgb(255, 255, 255);
-  padding: 10px 0px;
+  padding: 10px 10px;
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
   align-items: center;
   
 }
-.layout-nav{
+.Layout .layout-nav{
   display: flex;
   justify-content: space-between;
 }
-.layout-nav-cart{
+.Layout .layout-nav-cart{
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  padding-right: 50px;
 }
+
 .Layout aside {
   
   flex: 0% 0 0;

@@ -4,6 +4,10 @@
 body {
   margin: 0;
 }
+a{
+  text-decoration: none;
+  color: #6f6d6d;
+}
 .container {
   max-width: 974px;
   width: 100%;

@@ -17,9 +17,9 @@ export default function Auth() {
   if (user) {
     output = (
       <span >
-       
-        <button className="neon-btn sing" onClick={logOut}>Sign out</button> 
        <span className="user-name"><Link to="/orders">{user.displayName}</Link></span> 
+        <button className="neon-btn sing" onClick={logOut}>Sign out</button> 
+       
       </span>
     );
   }
