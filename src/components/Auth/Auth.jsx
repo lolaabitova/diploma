@@ -10,16 +10,22 @@ export default function Auth() {
   // показывается гостю
   let output = (
     <span>
-      Guest <button className="neon-btn sing" onClick={logIn}>Sign in</button>
+      Guest{" "}
+      <button className="neon-btn sing" onClick={logIn}>
+        Sign in
+      </button>
     </span>
   );
   // показывается пользователю
   if (user) {
     output = (
-      <span >
-       <span className="user-name"><Link to="/orders">{user.displayName}</Link></span> 
-        <button className="neon-btn sing" onClick={logOut}>Sign out</button> 
-       
+      <span>
+        <span className="user-name">
+          <Link to="/orders">{user.displayName}</Link>
+        </span>
+        <button className="neon-btn sing" onClick={logOut}>
+          Sign out
+        </button>
       </span>
     );
   }
