@@ -11,3 +11,13 @@
   font-size: 12px;
   color: rgb(255, 252, 252);
 }
+.Footer .footer-page {
+  display: inline-flex;
+  padding: 10px;
+  margin: 15px;
+}
+.footer-pages {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 35px;
+}
