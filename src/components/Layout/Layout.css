@@ -11,10 +11,16 @@
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-
+  align-items: center;
+  
+}
+.layout-nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+.layout-nav-cart{
+  display: flex;
+  justify-content: space-between;
 }
 .Layout aside {
   
