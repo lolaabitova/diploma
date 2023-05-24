@@ -18,6 +18,10 @@ export default function Footer() {
             <Link to="/contact">Contact</Link>
             <Link to="/delivery">Delivery</Link>
           </div>
+          <div className="nik">
+
+               
+                </div>
         </div>
         
       </footer>
