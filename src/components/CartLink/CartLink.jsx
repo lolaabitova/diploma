@@ -13,9 +13,10 @@ export default function CartLink() {
 
   return (
     <div className="CartLink">
-      <NavLink to="/cart">
+      <button class="custom-btn btn-12"><span><NavLink to="/cart">
         Cart ({total})
-      </NavLink>
+      </NavLink></span><span>CART</span></button>
+      
     </div>
   );
 }

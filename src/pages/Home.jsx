@@ -31,6 +31,7 @@ export default function Home() {
 
       <div>
         <h2>CURRENT OFFERS</h2>
+        
       </div>
     </div>
   );

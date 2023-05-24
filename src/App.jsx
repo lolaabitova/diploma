@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
+import Delivery from "./pages/Delivery"
 import { createContext, useEffect, useState } from "react";
 import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
 import Cart from "./pages/Cart";
@@ -61,6 +62,7 @@ export default function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
+            <Route path="/delivery" element={<Delivery/>}/>
             <Route path="/cart" element={<Cart />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/orders" element={<Orders />} />
