@@ -1,7 +1,11 @@
 .CartLink{
   font-family: "Bruno Ace SC", cursive;
-  font-size: 18px;
-  padding-top: 19px;
-  padding-left: 20px;
+  font-size: 16px;
+  padding-top: 5px;
+  
+  padding-left: 10px;
 
+}
+.CartLink a{
+  color: white;
 }
