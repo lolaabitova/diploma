@@ -1,53 +1,79 @@
+import "./About.css";
 export default function About() {
   return (
     <div className="About">
-      <div class="about-header">
-        <div class="about-header-img">
-          <img
-            src="https://gamerwall.pro/uploads/posts/2022-03/thumbs/1648681051_7-gamerwall-pro-p-fon-muzhskoi-s-mashinoi-krasivie-8.jpg"
-            alt=""
-          />
-        </div>
-        <div class="about-header-text">
-          {" "}
-          <h1>
-            Our store is one of the largest auto centers on the Eurasian
-            continent and meets the highest standards and requirements for car
-            dealers around the world.
-          </h1>
-        </div>
-      </div>
-      <div class="about-main">
-        <div class="about-main-img">
-          <img
-            src="https://damion.club/uploads/posts/2022-09/1663926489_1-damion-club-p-fon-avtomobilnii-vkontakte-3.jpg"
-            alt=""
-          />
-        </div>
-        <div className="about-main-text">
-          <h1>
-            Our collections reflect our passion for cars and mobility. Our
-            knowledge and experience in both these areas is reflected in the
-            design, materials and finishes of our products. After all, this is
-            the only way driving pleasure can become your constant companion -
-            on special occasions, in sports, or in everyday life.
-          </h1>
-        </div>
-      </div>
-      <div class="about-main-future">
-        <div class="container">
-          <h1>
-            The engine of the future will be powered by electricity. And the
-            future starts here and now. We invite you to take a glimpse at the
-            innovations that will define our mobility. In doing so, we span the
-            spectrum from today’s technologies to hydrogen and upcoming
-            technologies. This electric future offers tremendous opportunities
-            for a greener and more sustainable society.
-          </h1>
-        </div>
-      </div>
-
       
-    </div>
+      <div >
+          <div >
+            <h1>LEXUS ACCESSORIES</h1>
+
+          </div>
+          <div className="home-photo-categorii">
+        
+       
+        <div className="change-photos">
+          <div class="change-photo">
+            <img
+              src="https://ih1.redbubble.net/image.2741952527.4607/ssrco,baseball_cap,product,B7B4B8:25c8fc6a4c,front,square,600x600-bg,f8f8f8.jpg"
+              alt=""
+            />
+          </div>
+          <div className="change-photo">
+            <img
+              src="https://fixedopsdigital.s3.amazonaws.com/oem/lexus/accessories/lexus-keyless-fob-min.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="change-photos">
+          <div class="change-photo">
+            <img
+              src="https://www.buildpriceoption.com/wp-content/uploads/2023/03/emergency-assistance-kit.jpg"
+              alt=""
+            />
+          </div>
+          <div className="change-photo">
+            <img
+              src="https://cdn11.bigcommerce.com/s-ymkh4bv/images/stencil/500x659/products/3963/17974/LC09303103_1-WEB__23656.1620952096.jpg?c=2"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="change-photos">
+          <div class="change-photo">
+            <img
+              src="https://i.pinimg.com/736x/b2/7e/fa/b27efa17e17cfc265dfb69c3fe14cc6f.jpg"
+              alt=""
+            />
+          </div>
+          <div className="change-photo">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0032/3921/5222/products/il_fullxfull.3009720120_h92v_1024x1024.jpg?v=1618256267"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="change-photos">
+          <div class="change-photo">
+            <img
+              src="https://www.longolexus.com/static/dealer-17473/Genuine-Lexus-Parts-2.jpg"
+              alt=""
+            />
+          </div>
+          <div className="change-photo">
+            <img
+              src="https://prod-web-cms-images.s3-us-west-2.amazonaws.com/ce70861e-6367-4e98-b0b7-9739f833f71b/20210416-ORLPM-genuine_parts.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+     
+        </div>
+          
+        </div>
+      
+
+     
   );
 }
