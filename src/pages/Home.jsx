@@ -14,6 +14,7 @@ export default function Home() {
           <h1>Change your way on our auto</h1>
         </div>
       </div>
+      <h1>Our car models</h1>
       
       <div className="home-photo-categorii">
         
