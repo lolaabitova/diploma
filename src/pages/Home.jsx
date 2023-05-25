@@ -15,9 +15,8 @@ export default function Home() {
         </div>
       </div>
       <h1>Our car models</h1>
-      
+
       <div className="home-photo-categorii">
-        
         <div className="change-photos">
           <div class="change-photo">
             <img
@@ -76,16 +75,10 @@ export default function Home() {
         </div>
         <div className="change-photos">
           <div class="change-photo">
-            <img
-              src="https://cdn.wallpapersafari.com/2/54/OgBVkt.jpg"
-              alt=""
-            />
+            <img src="https://cdn.wallpapersafari.com/2/54/OgBVkt.jpg" alt="" />
           </div>
           <div className="change-photo">
-            <img
-              src="https://zastavok.net/main/auto/166724892140.jpg"
-              alt=""
-            />
+            <img src="https://zastavok.net/main/auto/166724892140.jpg" alt="" />
           </div>
         </div>
       </div>
