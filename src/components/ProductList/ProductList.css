@@ -84,3 +84,6 @@
   opacity: 0;
   transition: opacity .35s ease;
 }
+.hover-effect-btn:hover .button {
+  opacity: 1;
+}
