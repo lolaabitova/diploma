@@ -24,3 +24,6 @@
 .change-photos:hover .change-photo:nth-of-type(2) {
   display: block;
 }
+.change-photos:hover {
+  cursor: pointer;
+}
