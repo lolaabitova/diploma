@@ -122,4 +122,11 @@
   .Product {
     margin-left: 70px;
   }
+  .home-welcome{
+    width: auto;
+    
+  }
+  .home-welcome h1{
+    font-size: 36px;
+  }
 }
