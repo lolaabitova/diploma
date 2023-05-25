@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer className="Footer">
       <div className="footer-page">
-        <div>
-          <CategoryList />
+        <div className="footer-category">
+          <CategoryList className="footer-category"/>
         </div>
         <div className="footer-pages">
           <Link to="/">Home</Link>

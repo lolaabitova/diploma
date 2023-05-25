@@ -17,47 +17,12 @@ a {
   padding: 0 15px;
 }
 
-.Home .home-header .home-header-img {
-  overflow: hidden;
-  object-fit: cover;
-  
-}
-.Home .home-header .home-header-img img {
-  width: 100%;
-  height: 70vh;
-  position: relative;
-  display: block;
-  transition: 5s;
-  
-}
 
-
-.Home .home-header .home-header-img img:hover {
-  transform: scale(1.2);
-}
-
-.Home .home-header .home-header-text h1 {
-  margin-left: 50px;
-  width: 650px;
-  color: white;
-}
-.Home .home-header h1 {
-  position: absolute;
-  top: 1020px;
-  text-align: center;
-  
-  font-family: "Bruno Ace SC", cursive;
-  font-size: 26px;
-}
 .About h1:hover {
   color: #527c82;
 }
 
-.Home-welcome {
-  color: #527c82;
-  text-align: center;
-  font-size: 30px;
-}
+
 
 .Product-page scroll-container {
   display: block;
@@ -80,35 +45,7 @@ a {
   font-size: 18px;
 }
 
-.Home .home-welcome {
-  width: auto;
-  align-items: center;
-  overflow: hidden;
-  padding-bottom: 20px;
-  
-}
 
-.Home .home-welcome .home-welcome-img img {
-  width: 100%;
-  height: 50vh;
-  position: relative;
-  display: block;
-  transition: 5s;
-}
-
-.Home .home-welcome h1 {
-  position: absolute;
-  top: 150px;
-  margin-left: 200px;
-  color: white;
-
-  transition: 2s;
-  font-family: "Bruno Ace SC", cursive;
-  font-size: 48px;
-}
-.Home .home-welcome:hover h1 {
-  transform: scale(1.2);
-}
 
 
 scroll-container::-webkit-scrollbar {
@@ -144,7 +81,7 @@ scroll-container::-webkit-scrollbar {
   width: 700px;
   height: 80vh;
   background: rgba(6, 5, 5, 0.5);
-  transition: background 0.5s ease;
+  transition: background 3s ease;
   opacity: 0;
 }
 .Product-page .hover-effect-btn:hover .product-overlay {
