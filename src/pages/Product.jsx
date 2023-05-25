@@ -15,15 +15,15 @@ export default function Product() {
   }
 
   return (
-    <div className="Product container">
+    <div className="Product-page">
       <div class="hover-effect-btn">
         <img src={product.picture} alt={product.name} />
         <div className="product-name title">
           <div>
-            <span>{product.name}</span>
+            <span className="product-page-name">{product.name}</span>
           </div>
           <div>
-            <span>{product.price}$</span>
+            <span className="product-page-price">{product.price}$</span>
           </div>
         </div>
         <div class="product-overlay"></div>
@@ -42,8 +42,8 @@ export default function Product() {
             
             </scroll-page>
             <scroll-page id="page-2"><span className="product-year">{product.year}</span></scroll-page>
-            <scroll-page id="page-3"><span className="product-year">{product.description}</span>  </scroll-page>
-            <scroll-page id="page-3"></scroll-page>
+            <scroll-page id="page-3"><span className="product-description">{product.description}</span>  </scroll-page>
+            
           </scroll-container>
           
           </div> 
