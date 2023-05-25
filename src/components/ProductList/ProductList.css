@@ -87,3 +87,9 @@
 .hover-effect-btn:hover .button {
   opacity: 1;
 }
+.neon-btn.btn-more{
+  font-size: 12px;
+  width: 90%;
+  margin-left: 15px;
+  
+}
