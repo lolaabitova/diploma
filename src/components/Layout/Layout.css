@@ -1,5 +1,5 @@
 .Layout {
-  max-width: 1400px;
+  max-width: auto;
 
   margin: 0 auto;
   display: flex;
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding-right: 50px;
+  
 }
 
 .Layout aside {
@@ -40,8 +40,9 @@
   flex: 100% 0 0;
   
 }
-@media (max-width: 650px) {
-  .Layout header > .Nav {
+
+@media (max-width: 950px) {
+  .Layout header .nav > .NavBar{
     display: none;
   }
 }
