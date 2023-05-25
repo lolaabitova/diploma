@@ -21,7 +21,7 @@ export default function Layout(props) {
     <div className="Layout">
       <header>
         <div className="layout-nav">
-          <div>
+          <div className="nav">
             <Nav />
           </div>
           <div className="layout-nav-cart">
