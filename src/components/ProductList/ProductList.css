@@ -1,15 +1,13 @@
 .ProductList .Product {
-  
   width: 320px;
   padding-top: 25px;
   align-items: center;
   flex-wrap: wrap;
-  
-} 
+}
 .Product {
   display: inline-flex;
   flex-direction: column;
-  
+
   margin-left: 100px;
 }
 
@@ -17,17 +15,12 @@
   width: 280px;
   height: 250px;
   margin: 0 auto;
-  
 }
-.product-name .title{
-  
+.product-name .title {
   justify-content: center;
-  
 }
 .hover-effect-btn {
   position: relative;
-  
-  
 }
 .overlay {
   position: absolute;
@@ -36,14 +29,13 @@
   padding: 20px;
   width: 280px;
   height: 250px;
-  background: rgba(6, 6, 6, 0.5); 
+  background: rgba(6, 6, 6, 0.5);
   transition: background 0.5s ease;
   opacity: 0;
 }
 .hover-effect-btn:hover .overlay {
   display: block;
   opacity: 1;
-  
 }
 .title {
   display: flex;
@@ -54,44 +46,40 @@
   width: 50%;
   left: 25%;
   top: 30%; /* Отступ сверху */
-  
+
   text-align: center;
   text-transform: uppercase; /* Заглавные буквы */
   color: white; /* Цвет заголовка */
   z-index: 1;
   transition: top 0.5s ease;
-  
 }
-.Product .product-name{
+.Product .product-name {
   font-size: 16px;
-  
 }
-.Product .product-price{
+.Product .product-price {
   color: tomato;
   padding-top: 10px;
   font-size: 16px;
 }
 .hover-effect-btn:hover .title {
- 
   opacity: 1;
 }
 .button {
   position: absolute;
   width: 100%;
-  left:0;
+  left: 0;
   top: 70%; /* Отступ сверху */
   text-align: center;
   opacity: 0;
-  transition: opacity .35s ease;
+  transition: opacity 0.35s ease;
 }
 .hover-effect-btn:hover .button {
   opacity: 1;
 }
-.neon-btn.btn-more{
+.neon-btn.btn-more {
   font-size: 12px;
   width: 90%;
   margin-left: 15px;
-  
 }
 .home-welcome {
   width: auto;
@@ -99,7 +87,6 @@
   overflow: hidden;
   padding-bottom: 20px;
   text-align: center;
-  
 }
 .home-welcome .home-welcome-img img {
   width: 100%;
@@ -120,20 +107,19 @@
 .home-welcome:hover h1 {
   transform: scale(1.2);
 }
-@media screen and (max-width: 1280px){
-  .ProductList .Product{
+@media screen and (max-width: 1280px) {
+  .ProductList .Product {
     width: 300px;
   }
-  .Product{
+  .Product {
     margin-left: 90px;
   }
 }
-@media screen and (max-width: 1200px){
-  .ProductList .Product{
+@media screen and (max-width: 1200px) {
+  .ProductList .Product {
     width: 280px;
-    
   }
-  .Product{
+  .Product {
     margin-left: 70px;
   }
 }
