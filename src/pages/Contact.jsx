@@ -2,7 +2,7 @@ export default function Contact(){
   return(
     <div className="Contact">
       <h1>Contact us</h1>
-      <a className="Tel" target="_blank" rel="noreferrer" href="tel:+996 555 27 09 04">+996 555 27 09 04</a>
+      <a className="Tel" target="_blank" rel="noreferrer" href="tel:+996 555 27 09 04">Our phone:+996 555 27 09 04</a>
       <p><strong>Our email: </strong><a className="Email" target="_blank" rel="noreferrer" href="lolaabitova90@gmail.com">
                 autoshop@gmail.com</a></p>
 
