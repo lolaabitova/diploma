@@ -120,3 +120,20 @@
 .home-welcome:hover h1 {
   transform: scale(1.2);
 }
+@media screen and (max-width: 1280px){
+  .ProductList .Product{
+    width: 300px;
+  }
+  .Product{
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .ProductList .Product{
+    width: 280px;
+    
+  }
+  .Product{
+    margin-left: 70px;
+  }
+}
