@@ -1,110 +1,15 @@
 .ProductList .Product {
-  display: inline-flex;
-  flex-direction: column;
-  width: 300px;
-  padding:25px;
-  margin: 0 auto;
+  
+  width: 320px;
+  padding-top: 25px;
+  align-items: center;
+  flex-wrap: wrap;
   
 } 
-.ProductList .Product .hover-effect-btn img {
-  width: 280px;
-  height: 250px;
-  
-}
-.product-name .title{
-  
-  justify-content: center;
-  
-}
-
-
-
-.hover-effect-btn {
-  position: relative;
-  
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  width: 280px;
-  height: 250px;
-  background: rgba(181, 179, 179, 0.5); 
-  transition: background 0.5s ease;
-  opacity: 0;
-}
-.hover-effect-btn:hover .overlay {
-  display: block;
-  opacity: 1;
-  
-}
-.title {
-  display: flex;
+.Product {
+  display: inline-flex;
   flex-direction: column;
-  font-family: "Bruno Ace SC", cursive;
-  opacity: 0;
-  position: absolute;
-  width: 50%;
-  left: 25%;
-  top: 40%; /* Отступ сверху */
-  font-size: 1.300em; /* Размер текста заголовка */
-  text-align: center;
-  text-transform: uppercase; /* Заглавные буквы */
-  color: white; /* Цвет заголовка */
-  z-index: 1;
-  transition: top 0.5s ease;
-}
-.hover-effect-btn:hover .title {
- 
-  opacity: 1;
-}
-.button {
-  position: absolute;
-  width: 100%;
-  left:0;
-  top: 70%; /* Отступ сверху */
-  text-align: center;
-  opacity: 0;
-  transition: opacity .35s ease;
-}
-
-.hover-effect-btn:hover .button {
-  opacity: 1;
-}
-.neon-btn.btn-more{
-  font-size: 12px;
-  width: 70%;
-  margin-left: 40px;
   
+  margin-left: 100px;
 }
 
-
-
-.home-welcome {
-  width: auto;
-  align-items: center;
-  overflow: hidden;
-  padding-bottom: 20px;
-  text-align: center;
-  
-}
-.home-welcome .home-welcome-img img {
-  width: 100%;
-  height: 40vh;
-  position: relative;
-  display: block;
-  transition: 5s;
-}
-.home-welcome h1 {
-  position: absolute;
-  top: 115px;
-  margin-left: 200px;
-  color: white;
-  transition: 2s;
-  font-family: "Bruno Ace SC", cursive;
-  font-size: 44px;
-}
-.home-welcome:hover h1 {
-  transform: scale(1.2);
-}
