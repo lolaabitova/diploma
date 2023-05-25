@@ -27,3 +27,7 @@
 .change-photos:hover {
   cursor: pointer;
 }
+.home-header{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
