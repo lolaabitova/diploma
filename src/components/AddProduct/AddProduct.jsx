@@ -96,9 +96,9 @@ export default function AddProduct({ category }) {
             required
           />
         </label>
-        <label>
+        <label >
           Picture:
-          <input
+          <input 
             type="file"
             name="picture"
             onChange={onChangePicture}
@@ -114,6 +114,8 @@ export default function AddProduct({ category }) {
             onChange={onChangeYear}
             required
           />
+          </label>
+          <label>
           Description:
           <input
             type="text"
@@ -124,7 +126,7 @@ export default function AddProduct({ category }) {
           />
           
         </label>
-        <button className="btn_submit" type="submit" disabled={isSubmitting}>
+        <button className=" neon-btn" type="submit" disabled={isSubmitting}>
           {isSubmitting ? "Submitting..." : "Submit"}
         </button>
       </form>
