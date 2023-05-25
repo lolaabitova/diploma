@@ -13,14 +13,14 @@ export default function ProductList({ category }) {
     .filter((product) => product.category === category.id)
 
     .map((product) => (
-
       <div className="Product" key={product.id}>
         <div class="hover-effect-btn">
-          <div><img src={product.picture} alt={product.name} /></div>
+          <div>
+            <img src={product.picture} alt={product.name} />
+          </div>
           <div className="product-name title">
-           
-              <span>{product.name}</span>
-            
+            <span>{product.name}</span>
+
             <div className="product-price">
               <span>{product.price}$</span>
             </div>
