@@ -108,3 +108,15 @@
   display: block;
   transition: 5s;
 }
+.home-welcome h1 {
+  position: absolute;
+  top: 115px;
+  margin-left: 200px;
+  color: white;
+  transition: 2s;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 44px;
+}
+.home-welcome:hover h1 {
+  transform: scale(1.2);
+}
