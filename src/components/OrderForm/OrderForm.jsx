@@ -30,11 +30,11 @@ export default function OrderForm() {
   }
 
   if (Object.keys(cart).length === 0) {
-    return "Your cart is empty.";
+    return <h2>Your cart is empty.</h2>;
   }
 
   if (!user) {
-    return "Please login";
+    return <h2>Please login</h2>;
   }
 
   return (
@@ -50,7 +50,7 @@ export default function OrderForm() {
         <label>
           Address: <input type="text" name="address" required />
         </label>
-        <button>Submit</button>
+        <button className="neon-btn">Submit</button>
       </form>
     </div>
   );

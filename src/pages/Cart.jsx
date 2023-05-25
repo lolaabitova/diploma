@@ -1,12 +1,12 @@
 import CartList from "../components/CartList/CartList";
 import OrderForm from "../components/OrderForm/OrderForm";
 
-export default function Cart(){
+export default function Cart() {
   return (
-    <div className="Cart">
-      <h1>Cart</h1>
+    <div>
+      <span><h1>Cart</h1></span>
       <CartList />
-      <OrderForm/>
+      <OrderForm />
     </div>
-  )
+  );
 }

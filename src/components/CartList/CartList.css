@@ -54,27 +54,8 @@
   width: 20%;
 }
 
-.ProductSlug {
-  max-width: 45px;
-  flex-wrap: wrap;
-  margin-right: 40px;
-  margin-left: 20px;
-  width: 35%;
-  text-align: center;
-}
 
-.InputButton button {
-  margin-left: 20px;
-  color: white;
-  background-color: rgb(105, 218, 169);
-  cursor: pointer;
-  transition: 0.5s;
-}
 
-.InputButton button:hover {
-  background-color: rgb(85, 205, 221);
-  color: rgb(245, 242, 242);
-}
 
 .CartItem input {
   max-width: 50px;
@@ -85,10 +66,7 @@
   max-width: 10%;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  opacity: 1;
-}
+
 
 .line-btn {
   width: 150px;
@@ -97,9 +75,9 @@ input[type="number"]::-webkit-outer-spin-button {
   line-height: 30px;
   cursor: pointer;
   margin: 3em 0; /* Отступ кнопок */
-  color: #f50b0b;
+  color: tomato;
 
-  transition: all 0.5s;
+  transition: all 1s;
   position: relative;
   font-family: "Bruno Ace SC", cursive;
 }
@@ -120,7 +98,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 100%;
   z-index: 1;
   transition: all 0.5s;
-  border: 1px solid rgba(248, 9, 9, 0.2);
+  border: 1px solid tomato;
 }
 .line-btn::after {
   content: "";
@@ -131,7 +109,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 100%;
   z-index: 1;
   transition: all 0.5s;
-  border: 1px solid rgba(235, 11, 11, 0.2);
+  border: 1px solid tomato;
 }
 .line-btn:hover::before {
   transform: rotate(-45deg);
@@ -144,4 +122,5 @@ input[type="number"]::-webkit-outer-spin-button {
 .line-btn:hover span {
   color: red;
   opacity: 0.5;
+  font-size: 10px;
 }

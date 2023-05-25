@@ -17,13 +17,13 @@ export default function OrderList() {
       const product = products.find(product => product.id === productId);
 
       if (!product) {
-        return "Product not found";
+        return <strong className="red">Product not found</strong>;
       }
 
       return (
-        <div>
-          <img src={product.picture} alt={product.name} />
-          {product.name}: {order.cart[productId]} X {product.price} som = {order.cart[productId] * product.price} som
+        <div className="order-cart">
+          <div><img src={product.picture} alt={product.name} /></div>
+          <div>{product.name}:<strong className="red"> {order.cart[productId]} X {product.price} $ = {order.cart[productId] * product.price} $</strong></div>
         </div>
       );
     })
@@ -33,7 +33,8 @@ export default function OrderList() {
         <div><strong>Name</strong>: {order.name}</div>
         <div><strong>Phone</strong>: {order.phone}</div>
         <div><strong>Address</strong>: {order.address}</div>
-        <div><strong>Cart</strong>: {cartOutput}</div>
+        <div className="order-cart"><div><strong>Cart:</strong></div><div>{cartOutput}</div></div>
+        
       </div>
     );
   })

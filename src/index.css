@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  font-family: "Bruno Ace SC", cursive;
 }
 a {
   text-decoration: none;
@@ -15,15 +16,11 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
-.About .about-header {
-  width: auto;
-  align-items: center;
 
-  padding-bottom: 10px;
-  display: inline-block;
-}
 .Home .home-header .home-header-img {
   overflow: hidden;
+  object-fit: cover;
+  
 }
 .Home .home-header .home-header-img img {
   width: 100%;
@@ -31,52 +28,29 @@ a {
   position: relative;
   display: block;
   transition: 5s;
+  
 }
-.About .about-main .about-main-text h1 {
-  width: 600px;
-}
-.About .about-main h1 {
-  position: absolute;
-  top: 700px;
-  text-align: center;
-  color: rgb(2, 1, 1);
-  opacity: 0;
-  transition: 2s;
-  font-family: "Bruno Ace SC", cursive;
-  font-size: 24px;
-}
+
+
 .Home .home-header .home-header-img img:hover {
   transform: scale(1.2);
 }
-.About .about-main {
-  width: auto;
-  align-items: center;
-  overflow: hidden;
-  padding-bottom: 10px;
-}
 
-.About .about-main .about-main-img img {
-  width: 100%;
-  height: 80vh;
-  position: relative;
-  display: block;
-  transition: 5s;
-}
 .Home .home-header .home-header-text h1 {
-  margin-left: 810px;
-  width: 400px;
+  margin-left: 50px;
+  width: 650px;
   color: white;
 }
 .Home .home-header h1 {
   position: absolute;
-  top: 500px;
+  top: 1020px;
   text-align: center;
-  color: #527c82;
+  
   font-family: "Bruno Ace SC", cursive;
-  font-size: 24px;
+  font-size: 26px;
 }
-.About .about-main h1:hover {
-  opacity: 1;
+.About h1:hover {
+  color: #527c82;
 }
 
 .Home-welcome {
@@ -85,18 +59,19 @@ a {
   font-size: 30px;
 }
 
-.Product scroll-container {
+.Product-page scroll-container {
   display: block;
-  width: 220px;
-  height: 70vh;
+  width: 320px;
+  height: 40vh;
   overflow-y: auto;
   scroll-snap-type: y;
+  padding-left: 100px;
 }
 .product-year {
   font-family: "Bruno Ace SC", cursive;
   text-align: center;
 }
-.Product scroll-page {
+.Product-page scroll-page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,6 +85,7 @@ a {
   align-items: center;
   overflow: hidden;
   padding-bottom: 20px;
+  
 }
 
 .Home .home-welcome .home-welcome-img img {
@@ -134,50 +110,48 @@ a {
   transform: scale(1.2);
 }
 
-.Product .product-name h1 {
-  position: absolute;
-  top: 10%;
-  color: rgb(251, 245, 245);
-  font-size: 48px;
-  font-family: "Bruno Ace SC", cursive;
-  margin-left: 70%;
-  opacity: 0;
 
-  transition: 2s;
-}
 scroll-container::-webkit-scrollbar {
   width: 5px;
   background-color: #627578;
 }
 
-.Product {
-  position: relative;
+.Product-page {
+  position: relative;transition: 2s;
 }
-.Product img {
-  width: 1000px;
-  position: relative;
-  height: 90vh;
+.product-page-price{
+  color: tomato;
 }
 
-.Product .hover-effect-btn {
+.Product-page img {
+  width: 800px;
+  position: relative;
+  height: 80vh;
+  padding-left: 100px;
+  margin-bottom: 70px;
+}
+
+
+.Product-page .hover-effect-btn {
   position: relative;
 }
 .product-overlay {
+  padding-left: 100px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 100px;
   padding: 20px;
-  width: 1000px;
-  height: 90vh;
-  background: rgba(181, 179, 179, 0.5);
+  width: 700px;
+  height: 80vh;
+  background: rgba(6, 5, 5, 0.5);
   transition: background 0.5s ease;
   opacity: 0;
 }
-.Product .hover-effect-btn:hover .product-overlay {
+.Product-page .hover-effect-btn:hover .product-overlay {
   display: block;
   opacity: 1;
 }
-.Product .title {
+.Product-page .title {
   display: flex;
   flex-direction: column;
   font-family: "Bruno Ace SC", cursive;
@@ -185,31 +159,31 @@ scroll-container::-webkit-scrollbar {
   position: absolute;
   width: 50%;
   left: 25%;
-  top: 40%; /* Отступ сверху */
-  font-size: 1.3em; /* Размер текста заголовка */
+  top: 30%; /* Отступ сверху */
+  font-size: 2.5em; /* Размер текста заголовка */
   text-align: center;
   text-transform: uppercase; /* Заглавные буквы */
   color: white; /* Цвет заголовка */
   z-index: 1;
-  transition: top 0.5s ease;
+  transition: top 1s ease;
 }
-.Product .hover-effect-btn:hover .title {
+.Product-page .hover-effect-btn:hover .title {
   opacity: 1;
 }
-.Product .button {
+.Product-page .button {
   position: absolute;
   width: 100%;
   left: 0;
-  top: 70%; /* Отступ сверху */
+  top: 60%; /* Отступ сверху */
   text-align: center;
   opacity: 0;
-  transition: opacity 0.35s ease;
+  transition: opacity 0.5s ease;
 }
 
-.Product .hover-effect-btn:hover .button {
+.Product-page .hover-effect-btn:hover .button {
   opacity: 1;
 }
-.Product {
+.Product-page {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
@@ -296,4 +270,17 @@ scroll-container::-webkit-scrollbar {
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
+}
+h1{
+  text-align: center;
+  
+  color: #6f6d6d;
+}
+h2{
+  text-align: center;
+  color: tomato;
+  opacity: 0.5;
+}
+.ThankYou{
+  text-align: center;
 }
