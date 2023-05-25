@@ -13,3 +13,9 @@
   margin-left: 100px;
 }
 
+.ProductList .Product .hover-effect-btn img {
+  width: 280px;
+  height: 250px;
+  margin: 0 auto;
+  
+}
