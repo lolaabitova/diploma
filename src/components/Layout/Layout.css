@@ -15,8 +15,9 @@
   
 }
 .Layout .layout-nav{
-  display: flex;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-around;
+  
 }
 .Layout .layout-nav-cart{
   display: flex;
@@ -24,7 +25,10 @@
   text-align: center;
   
 }
-
+.nav-sing{
+  display: flex;
+  
+}
 .Layout aside {
   
   flex: 0% 0 0;
@@ -50,9 +54,18 @@
       
     }
     
+    .Layout header{
+      width: auto;
+      
+    }
+    
+    
     .Layout .layout-nav{
       width: auto;
       flex-basis: 85%;
+      display: flex;
+      
+      
     }
     .Layout main{
       flex:100% 1 1;
@@ -60,6 +73,7 @@
     .Layout footer{
       flex:100% 0;
     }
+    
 }
 @media screen and (max-width: 1200px){
   .Layout {

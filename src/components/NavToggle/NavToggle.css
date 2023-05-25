@@ -1,16 +1,17 @@
 .NavToggle {
   display: none;
   padding: 0;
+  margin-right: 560px;
   cursor: pointer;
   background-color: transparent;
   border: none;
-  padding-top: -400px;
+  
 }
 .NavToggle .line {
   width: 25px;
   height: 2px;
   margin: 5px;
-  background-color: #0b1c2c;
+  background-color: #0a6362;
 }
 @media (max-width: 950px) {
   .NavToggle {

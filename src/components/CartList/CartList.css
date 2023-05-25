@@ -124,3 +124,8 @@
   opacity: 0.5;
   font-size: 10px;
 }
+@media screen and (max-width: 950px){
+  .CartList .CartItem img{
+    width: 200px;
+  }
+}
