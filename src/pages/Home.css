@@ -153,3 +153,48 @@
   
   
 }
+@media screen and (max-width: 950px) {
+  
+  .Home .home-header .home-header-img img {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: block;
+    transition: 5s;
+  }
+  .Home .home-header{
+    width: auto;
+  }
+  .Home .home-welcome {
+    width: auto;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    
+  }
+  
+  .Home .home-header h1{
+    font-size: 18px;
+    top:850px;
+    
+  }
+
+  .change-photos .change-photo img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .Home .home-welcome h1{
+    font-size: 32px;
+    
+  }
+  .home-photo-categorii{
+    width: auto;
+  }
+  .Home .home-header-text {
+    width: 250px;
+  }
+  
+  
+}
