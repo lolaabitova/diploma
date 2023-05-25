@@ -11,7 +11,7 @@ export default function Contact() {
           rel="noreferrer"
           href="tel:+996 555 27 09 04"
         >
-          +996 555 27 09 04
+          +996 554 22 55 31
         </a>
       </p>
 
