@@ -45,6 +45,21 @@
   .Layout header .nav > .NavBar{
     display: none;
   }
+  .Layout {
+    width: auto;
+      
+    }
+    
+    .Layout .layout-nav{
+      width: auto;
+      flex-basis: 85%;
+    }
+    .Layout main{
+      flex:100% 1 1;
+    }
+    .Layout footer{
+      flex:100% 0;
+    }
 }
 @media screen and (max-width: 1200px){
   .Layout {
