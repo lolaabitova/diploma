@@ -26,6 +26,15 @@ export default function Contact() {
           autoshop@gmail.com
         </a>
       </p>
+      <p>
+        <strong>Our adress: </strong>
+        <a
+          
+        >
+          Toktogul street building 2
+        </a>
+      </p>
+      
 
       <p>
         <strong>We are in social networks:</strong>
