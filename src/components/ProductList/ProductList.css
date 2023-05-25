@@ -45,3 +45,24 @@
   opacity: 1;
   
 }
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bruno Ace SC", cursive;
+  opacity: 0;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 30%; /* Отступ сверху */
+  
+  text-align: center;
+  text-transform: uppercase; /* Заглавные буквы */
+  color: white; /* Цвет заголовка */
+  z-index: 1;
+  transition: top 0.5s ease;
+  
+}
+.Product .product-name{
+  font-size: 16px;
+  
+}
