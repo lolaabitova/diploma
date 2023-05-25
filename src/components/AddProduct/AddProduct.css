@@ -1,11 +1,19 @@
 .AddProduct {
   width: 100%;
+
 }
 .AddProduct form {
+  
   display: flex;
-  justify-content: center;
   flex-direction: column;
-}
-.btn_submit {
-  width: 100px;
+  align-items: center;
+  border: 2px solid rgb(27, 117, 131);
+  margin: 0 auto;
+  padding: 15px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px 5px rgb(57, 88, 84);
+  color: rgb(130, 125, 125);
+  width: 800px;
 }
