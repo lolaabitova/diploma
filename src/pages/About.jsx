@@ -70,6 +70,24 @@ export default function About() {
       </div>
      
         </div>
+        <div className="about-text container">
+            <h1>Electric Future</h1><h3>
+            The engine of the future will be powered by electricity. And the
+            future starts here and now. We invite you to take a glimpse at the
+            innovations that will define our mobility. In doing so, we span the
+            spectrum from today’s technologies to hydrogen and upcoming
+            technologies. This electric future offers tremendous opportunities
+            for a greener and more sustainable society.
+          </h3>
+          </div>
+          <div className="about-el">
+            <div className="electric-img"><img src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/sustainability/i4-norway/i4n-08-media-hd.jpg?imwidth=1280" alt="" /></div>
+            <div className="electric-img"><img src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/events/ces2022/ixm60/BMW_CES_07_ixm60_hd.jpg?imwidth=1280" alt="" /></div>
+            <div className="electric-img"><img src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/events/iaa2021/overview/Events_teaser_hd.png?imwidth=1280" alt="" /></div>
+          </div>
+
+
+
           
         </div>
       
