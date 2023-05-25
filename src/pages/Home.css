@@ -5,3 +5,9 @@
   
   
 }
+.change-photos .change-photo img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  
+}
