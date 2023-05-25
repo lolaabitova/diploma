@@ -9,3 +9,6 @@
   border-radius: 30%;
   padding: 10px 20px;
 }
+.Auth .auth-guest{
+  color: tomato;
+}
