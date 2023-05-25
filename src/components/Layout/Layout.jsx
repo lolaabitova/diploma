@@ -20,6 +20,8 @@ export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
+        <NavToggle callback={toggleDrawer} />
+        <Drawer open={drawerOpen} toggle={toggleDrawer} />
         <div className="layout-nav">
           <div className="nav">
             <Nav />
@@ -30,8 +32,7 @@ export default function Layout(props) {
           </div>
         </div>
 
-        <NavToggle callback={toggleDrawer} />
-        <Drawer open={drawerOpen} toggle={toggleDrawer} />
+        
       </header>
       <aside></aside>
       <main>{props.children}</main>
