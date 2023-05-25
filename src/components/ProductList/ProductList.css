@@ -71,3 +71,7 @@
   padding-top: 10px;
   font-size: 16px;
 }
+.hover-effect-btn:hover .title {
+ 
+  opacity: 1;
+}
