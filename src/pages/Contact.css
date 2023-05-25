@@ -1,3 +1,6 @@
 .Contact p{
   text-align: center;
 }
+.Contact a{
+  padding-left: 10px;
+}
