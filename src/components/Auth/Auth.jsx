@@ -10,7 +10,7 @@ export default function Auth() {
   // показывается гостю
   let output = (
     <span>
-      Guest{" "}
+      <span className="auth-guest">Guest</span>{" "}
       <button className="neon-btn sing" onClick={logIn}>
         Sign in
       </button>
