@@ -2,3 +2,8 @@
   padding-top: 50px;
   padding-bottom: 30px;
 }
+.about-el img{
+  width: 400px;
+  overflow: hidden;
+  transition: 3s;
+  }
