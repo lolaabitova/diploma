@@ -6,7 +6,7 @@ export default function About() {
       <div >
           <div >
             <h1>LEXUS ACCESSORIES</h1>
-
+            <h3 className="container">Everything you desire is essential. Everything else is superfluous. Genuine 2022 Lexus Accessories allow you to augment the function and appearance of your Lexus to your precise demands without adding unnecessary excess to your driving experience. Plus, F SPORT Accessories are available to unlock further performance potential. Shop Lexus Parts & Accessories Online and shop your official Lexus accessories dealer.</h3>
           </div>
           <div className="home-photo-categorii">
         
