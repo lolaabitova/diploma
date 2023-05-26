@@ -18,3 +18,8 @@
     display: inline-block;
   }
 }
+@media (max-width: 550px){
+  .NavToggle{
+    margin-right: 200px;
+  }
+}

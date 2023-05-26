@@ -31,4 +31,9 @@
   .Nav ul {
     flex-direction: column;
   }
+}@media screen and (max-width: 550px){
+  .Nav ul li a{
+    margin: 3px;
+  }
 }
+
